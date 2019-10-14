@@ -10,9 +10,9 @@ Running the Script
 
 The script requires a few command line arguments namely 
 
-* 'instance type': to specify the instance type you want to launch
-* 'ami_id': AMI id of the instance
-* 'key': key name required to connect to the server later
+* `instance type`: to specify the instance type you want to launch
+* `ami_id`: AMI id of the instance
+* `key`: key name required to connect to the server later
 
 Result
 -------------
