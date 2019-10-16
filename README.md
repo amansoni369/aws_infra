@@ -34,3 +34,16 @@ This script creates network required to launch an ec2 instance. It creates a VPC
 
 setup_aws_infra.yml
 ---------------------
+The yaml script runs the python script that actually creates aws infrastructure. It sets the env vars required for aws to execute the python script.
+
+  * Pre-requisites
+  ------------------
+    * make sure you have an aws account. Generate aws access key and secret key linked to your account as it will be required in yaml script
+
+  * Dependencies
+  ----------------
+    * python should be installed on the server(Ideally it will there if ansible is installed on the server, else install Ansible as well)
+    
+  * Usage
+  -------
+  In order to use the ansible script, you'll need aws credentials as stated above. Once generated, it is best to encrypt the credentials using ansible vault feauture before putting them into the script.
