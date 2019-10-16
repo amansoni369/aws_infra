@@ -24,7 +24,7 @@
           AWS_DEFAULT_REGION: "ap-southeast-2"
 
     - name: run python script to setup aws infra
-      command: python /home/ec2-user/Ansible/main.py t2.micro sydney ami-03ed5bd63ba378bd8
+      command: python main.py t2.micro sydney ami-03ed5bd63ba378bd8
       register: infra_setup
       environment:
         AWS_DEFAULT_REGION: "{{ Creds['AWS_DEFAULT_REGION'] }}"
