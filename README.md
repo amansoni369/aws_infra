@@ -1,4 +1,4 @@
-**__main_ref.py__**
+**main_ref.py**
 -----------
 This script creates network required to launch an ec2 instance. It creates a VPC, Internet gateway, route tables, subnet. Once network is created we can launch the ec2 instance in the created subnet
 
@@ -32,5 +32,5 @@ Author
 amansoni369@gmail.com - Aman Soni
 
 
-**__setup_aws_infra.yml__**
+**setup_aws_infra.yml**
 ---------------------
