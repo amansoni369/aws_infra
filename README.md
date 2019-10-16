@@ -38,11 +38,11 @@ The yaml script runs the python script that actually creates aws infrastructure.
 
   * Pre-requisites
   ------------------
-    *make sure you have an aws account. Generate aws access key and secret key linked to your account as it will be required in yaml script
+    _make sure you have an aws account. Generate aws access key and secret key linked to your account as it will be required in yaml script_
 
   * Dependencies
   ----------------
-    *python should be installed on the server(Ideally it will there if ansible is installed on the server, else install Ansible as well)
+    _python should be installed on the server(Ideally it will there if ansible is installed on the server, else install Ansible as well)_
     
   * Usage
   -------
