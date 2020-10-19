@@ -1,4 +1,4 @@
-# this playbook runs the python script that sets up aws infra
+# this playbook runs the python script that sets up aws infra as per the description
 ---
 - hosts: localhost
   gather_facts: no
